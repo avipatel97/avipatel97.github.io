@@ -153,7 +153,7 @@ $(function() {
     e.preventDefault();
 
       $.ajax({
-          url: "https://formspree.io/avipatel97", #i don't actually have one (yet?)
+          url: "https://formspree.io/avipatel97", //#i don't actually have one (yet?)
           method: "POST",
           data: { message: $('form').serialize() },
           dataType: "json"
