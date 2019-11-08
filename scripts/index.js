@@ -48,7 +48,7 @@ $(function() {
     // Link Highlighting
     if (pos2 > $('#home').offset().top)       { highlightLink('home'); }
     if (pos2 > $('#about').offset().top)      { highlightLink('about'); }
-    if (pos2 > $('#portfolio').offset().top)  { highlightLink('portfolio'); }
+    if (pos2 > $('#stories').offset().top)  { highlightLink('stories'); }
     if (pos2 > $('#blog').offset().top)       { highlightLink('blog'); }
     if (pos2 > $('#contact').offset().top ||
         pos + $(window).height() === $(document).height()) {
