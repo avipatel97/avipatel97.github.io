@@ -433,13 +433,25 @@
             <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
           </div>
           <input class="button" type="submit" id="submit" value="SUBMIT">
-        </form> -->
+        </form>
+      -->
+        <!--
         <form action="mailto:avi.patel@uconn.edu" method="post" enctype="text/plain" id="contact-form">
           <input placeholder="Name" type="text" name="name" required="">
           <input placeholder="Email" type="email" name="mail" required="">
           <textarea placeholder="Your Message" type="text" name="comment" spellcheck="true" style="max-width: 500px; min-width: 500px;"></textarea>
           <input class="button" type="submit" value="Send">
         </form>
+      -->
+        <form action="mailto:avi.patel@uconn.edu" method="get" enctype="text/plain">
+          <p>Name: <input type="text" name="name" /></p>
+          <p>Email: <input type="text" name="email" /></p>
+          <p>Comments:
+            <br />
+            <textarea name="comments" rows="12" cols="35">Send your comments to the website.</textarea>
+            <br>
+            <p><input type="submit" name="submit" value="Send" />
+              <input type="reset" name="reset" value="Clear Form" />
       </div>
     </section>
 
