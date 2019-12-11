@@ -7,8 +7,9 @@
 
   <!-- HOSTED -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+  <!--
   <link href="fonts\mdi\css\materialdesignicons.min.css" media="all" rel="stylesheet">
-
+-->
   <!-- LOCAL -->
   <link rel="stylesheet" href="style\style.css">
   <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
@@ -20,13 +21,6 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- HOSTED -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
- -->
-  <!-- LOCAL -->
   <script src="scripts\jquery.min.js"></script>
   <script src="scripts\jquery.mixitup.min.js"></script>
   <script src="scripts\jquery.waypoints.min.js"></script>
@@ -418,33 +412,15 @@
     padding-bottom: 60px;
     padding-top: 130px;
 ">
-      <!--
-      <svg preserveaspectratio="none" viewbox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-        <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-      </svg>
-    -->
       <div class="container flex">
         <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
         <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
-        <!--
-        <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
-          <input placeholder="Name" type="text" name="name" required="">
-          <input placeholder="Enter emailss" type="email" name="email" required="">
-          <textarea placeholder="Your Message" type="text" name="message" spellcheck="true" style="max-width: 500px; min-width: 500px;"></textarea>
-          <div id="success">
-            <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
-          </div>
-          <input class="button" type="submit" id="submit" value="SUBMIT">
+        <form action="mailto:avi.patel@uconn.edu" class="waypoint" data-animation="pop-in" data-delay=".5s" method="post" enctype="text/plain">
+          <p><input placeholder="Name" type="text" name="name" required=""></p>
+          <p><input placeholder="Email" type="text" name="email" required=""></p>
+          <textarea placeholder="Your Message" type="text" name="message" spellcheck="true"></textarea>
+          <input class="button" type="submit" id="sumbit" name="submit" value="Send" />
         </form>
-      -->
-        <div class="contact-form" data-animation="pop-in">
-          <form action="mailto:avi.patel@uconn.edu" method="post" enctype="text/plain">
-            <p><input placeholder="Name" type="text" name="name" required=""></p>
-            <p><input placeholder="Email" type="text" name="email" required=""></p>
-            <textarea placeholder="Your Message" type="text" name="message" spellcheck="true"></textarea>
-            <input class="button" type="submit" id="sumbit" name="submit" value="Send" />
-          </form>
-        </div>
       </div>
     </section>
 
