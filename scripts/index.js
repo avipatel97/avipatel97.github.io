@@ -55,8 +55,8 @@ $(function() {
     if (pos2 > $('#stories').offset().top) {
       highlightLink('stories');
     }
-    if (pos2 > $('#blog').offset().top) {
-      highlightLink('blog');
+    if (pos2 > $('#thoughts').offset().top) {
+      highlightLink('thoughts');
     }
     if (pos2 > $('#contact').offset().top ||
       pos + $(window).height() === $(document).height()) {
@@ -97,12 +97,12 @@ $(function() {
     $('.link-wrap').toggleClass('visible');
   });
 
-  $('.blog-wrap').hover(function() {
-    $('.blog-wrap').not(this).addClass('fade');
+  $('.thoughts-wrap').hover(function() {
+    $('.thoughts-wrap').not(this).addClass('fade');
     $(this).addClass("hover");
   }, function() {
     $(this).removeClass("hover");
-    $('.blog-wrap').removeClass('fade');
+    $('.thoughts-wrap').removeClass('fade');
   });
 
   posFilterBar($('.filter').first());
