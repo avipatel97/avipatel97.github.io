@@ -1,10 +1,10 @@
 Things to do:
+-Fix font size of student|creator|explorer
 
 Other notes:
 <script src="https://kit.fontawesome.com/3cc8c7d41e.js" crossorigin="anonymous"></script>
 
 Things to consider:
--Change this file name to Release Notes?
 -Do I want to have a blog section. What wound the posts be?
 -Do I just want to make an IG so its a photo blog. No, because I then would be concerned over likes/comments instead of the content itself.
 -Do I want to write, long extensive things? No. I would rather write small blurbs about daily occurance.
@@ -17,3 +17,11 @@ Ex. -
 -Add publications / press references
 -Travel stories
 -Good books / movies / articles (Goodreads) / podcasts
+
+4/11/2020
+-Added revision history
+-Changed Readme.txt to ReleaseNote.txt
+-Hidden stories and thoughts sections by adding "display: none;" to the style of each section
+-Updated jquery.min.js from 3.4.1 to version 3.5.0
+-Updated Waypoints - 4.0.0 to Waypoints - 4.0.1
+-pt.min.js (attempted update) has been found to power to rotating main page
