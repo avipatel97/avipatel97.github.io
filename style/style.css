@@ -276,6 +276,12 @@ body {
   font-weight: 500;
 }
 
+.labelred {
+  font-size: 18pt;
+  font-weight: 500;
+  color: #E31B6D;
+}
+
 .resume {
   background: #455261;
   height: 100px;
@@ -548,6 +554,14 @@ section:nth-of-type(1) .highlight {
 section:nth-of-type(1) .text {
   margin: 0 0 20px 0;
   font-size: 16pt;
+  line-height: 20pt;
+  z-index: 1;
+  pointer-events: none;
+}
+
+section:nth-of-type(1) .subtext {
+  margin: 0 0 20px 0;
+  font-size: 20pt;
   line-height: 20pt;
   z-index: 1;
   pointer-events: none;
@@ -1247,7 +1261,12 @@ footer .footnote .highlight {
   }
 
   section:nth-of-type(1) .text {
-    font-size: 32pt;
+    font-size: 38pt;
+    line-height: 36pt;
+  }
+
+  section:nth-of-type(1) .subtext {
+    font-size: 20pt;
     line-height: 36pt;
   }
 
