@@ -53,6 +53,7 @@ V0.0 - ##/##/####
 - Fixed interest section
 - Changelog file name changed to README (for consistency)
 - Changed README formatting to my standard template
+- 2nd commit to fix typos and shorten wording
 
 VFuture
 -Add Press mentions / publications
