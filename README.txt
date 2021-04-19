@@ -1,5 +1,4 @@
 README
-README
 
 **Temp Note**
 
@@ -14,7 +13,7 @@ My website
 The wiki of my life
 
 Marketing Ideas:
-Linked on IG bio, fb bio, linkedin bio
+Linked on IG bio, fb bio, LinkedIn bio
 
 Purpose:
 The wiki of my life
@@ -55,8 +54,17 @@ V0.0 - ##/##/####
 - Changed README formatting to my standard template
 - 2nd commit to fix typos and shorten wording
 
-VFuture
--Add Press mentions / publications
+4/19/2021
+- Separate papers/publications with projects
+- Added Plate
+- Fix emojis
+- Upgrade to jqurey 3.6.0
+
+Future
+- Create the last Code Project Demo (I am Speed) and Link them all
+- Make same background for the whole thing (look at P)
+- Make left face image static (so it doesn’t move as you scroll)
+-Put website mentions below respective sections
 
 UI:
 N/A
