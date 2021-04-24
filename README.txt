@@ -60,6 +60,11 @@ V0.0 - ##/##/####
 - Fix emojis
 - Upgrade to jqurey 3.6.0
 
+4/??/2021
+- Updated bio (removed EM)
+- Fixed publication capitalization
+
+
 Future
 - Create the last Code Project Demo (I am Speed) and Link them all
 - Make same background for the whole thing (look at P)
@@ -78,15 +83,11 @@ Appendix:
 
 Things to consider:
 -Do I want to have a blog section. What wound the posts be?
+-- Use my favorite writings as sections in website blog
 -Do I just want to make an IG so its a photo blog. No, because I then would be concerned over likes/comments instead of the content itself.
 -Do I want to write, long extensive things? No. I would rather write small blurbs about daily occurrence.
 -Places I’ve Been - map scratch off
 -Good books (goodreads widget) / movies (imdb widget) / articles (?) / podcasts
--Sample Blog Post: One photo of interracial marriage and my interracial blurbs
--Sample Blog Post: One photo of India and my thoughts on that place
--Sample Blog Post: One photo of formal education and my thoughts on that place
--Sample Blog Post: Image that sums up conversation with P. My thoughts on that place.
--Sample Blog Post: Image of Whitney. My thoughts on why we do this dumb stuff.
 -Travel stories
 
 Contact:
