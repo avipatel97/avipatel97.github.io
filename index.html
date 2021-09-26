@@ -1,100 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>avi patel</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>avi patel</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport">
 
-  <!-- HOSTED -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
-  <link href="fonts\mdi\css\materialdesignicons.min.css" media="all" rel="stylesheet">
-  <!-- LOCAL -->
-  <link rel="stylesheet" href="style\style.css">
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+    <!-- HOSTED -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800'
+          rel='stylesheet' type='text/css'>
+    <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet">
+    <!-- LOCAL -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/site.webmanifest" rel="manifest">
+    <link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon">
+    <meta content="#da532c" name="msapplication-TileColor">
+    <meta content="#ffffff" name="theme-color">
 
-  <script src="scripts\jquery-3.6.0.min.js"></script>
-  <script src="scripts\jquery.mixitup.min.js"></script>
-  <script src="scripts\jquery.waypoints.min.js"></script>
-  <script src="scripts\prefixfree.min.js"></script>
-  <script src="scripts\pt.min.js"></script>
-  <script src="scripts\index.js"></script>
-  <script src="scripts\modal.js"></script>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/jquery.mixitup.min.js"></script>
+    <script src="scripts/jquery.waypoints.min.js"></script>
+    <script src="scripts/prefixfree.min.js"></script>
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/modal.js"></script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154868207-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154868207-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments)
+        }
 
-    gtag('config', 'UA-154868207-1');
-  </script>
+        gtag('js', new Date())
+
+        gtag('config', 'UA-154868207-1')
+    </script>
 
 </head>
 
 <body>
-  <div class="overflow-wrap">
+<div class="overflow-wrap">
 
     <!-- HOME -->
     <div class="modal-wrap flex">
-      <div class="mask"></div>
-      <div class="modal" id="modal">
-        <div class="carousel-wrap">
-          <div class="window">
-            <div id="carousel">
-              <div class="slide"></div>
-              <div class="slide"></div>
-              <div class="slide"></div>
-            </div>
-            <i class="mdi mdi-chevron-left" id="prev"></i>
-            <i class="mdi mdi-chevron-right" id="next"></i>
-          </div>
+        <div class="mask"></div>
+        <div class="modal" id="modal">
+            <div class="carousel-wrap">
+                <div class="window">
+                    <div id="carousel">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                    </div>
+                    <i class="mdi mdi-chevron-left" id="prev"></i>
+                    <i class="mdi mdi-chevron-right" id="next"></i>
+                </div>
 
+            </div>
+            <div class="info-box">
+                <div class="title"></div>
+                <div class="tag"></div>
+                <div class="detail"></div>
+            </div>
+            <i class="close mdi mdi-close"></i>
         </div>
-        <div class="info-box">
-          <div class="title"></div>
-          <div class="tag"></div>
-          <div class="detail"></div>
-          <a href="#" target="_blank">
-            <div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div>
-          </a>
-        </div>
-        <i class="close mdi mdi-close"></i>
-      </div>
     </div>
 
-    <section id="home" class="flex height-fix">
-      <div id="pt" class="canvas"></div>
-      <div class="flex">
-        <div class="text">avi <span class="highlight">patel</span>.
-          <br></div>
-        <div class="subtext">student | creator | explorer</div>
+    <section class="flex height-fix" id="home">
+        <div class="canvas" id="pt"></div>
+        <div class="flex">
+            <div class="text">avi <span class="highlight">patel</span>.
+                <br></div>
+            <div class="subtext">student | creator | explorer</div>
 
-        <div class="button page-link" dest="about">my story <i class="mdi mdi-arrow-right"></i></div>
+            <div class="button page-link" dest="about">my story <i class="mdi mdi-arrow-right"></i></div>
 
-        <nav class="flex desk">
-          <div class="link-wrap">
-            <div class="page-link active" dest="home">home</div>
-            <div class="page-link" dest="about">about</div>
-            <!--
-            Removed these sections for now
-            <div class="page-link" dest="stories">stories</div>
-            <div class="page-link" dest="thoughts">thoughts</div>-->
-            <div class="page-link" dest="contact">contact</div>
-          </div>
-          <i class="mdi mdi-menu"></i>
-        </nav>
-      </div>
+            <nav class="flex desk">
+                <div class="link-wrap">
+                    <div class="page-link active" dest="home">home</div>
+                    <div class="page-link" dest="about">about</div>
+                    <!--
+                    Removed these sections for now
+                    <div class="page-link" dest="stories">stories</div>
+                    <div class="page-link" dest="thoughts">thoughts</div>-->
+                    <div class="page-link" dest="contact">contact</div>
+                </div>
+                <i class="mdi mdi-menu"></i>
+            </nav>
+        </div>
 
     </section>
 
@@ -104,149 +103,216 @@
     padding-top: 60px;
 ">
 
-      <div class="container flex">
+        <div class="container flex">
 
-        <div class="header waypoint" data-animation="slide-in-left">about</div>
-        <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
-        <!--
-        <div class="flex row label-wrap">
-          <div class="flex row-gt-sm">
-            <div class="flex bullet-wrap ">
-              <div class="hex-wrap waypoint" data-animation="flip-in-x">
-                <div class="hexagon">
-                  <i class="mdi mdi-speedometer"></i>
-                </div>
-              </div>
-              <div class="waypoint" data-animation="fade-in">
-                <div class="label bold">Adjective 1</div>
-                <div>Adjective 1 Description. Needs to be a bit longer for spacing.</div>
-              </div>
-            </div>
-
-            <div class="flex bullet-wrap ">
-              <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
-                <div class="hexagon">
-                  <i class="mdi mdi-cellphone-link"></i>
-                </div>
-              </div>
-              <div class="waypoint" data-animation="fade-in" data-delay=".2s">
-                <div class="label bold">Adjective 2</div>
-                <div>Adjective 2 Description. Needs to be a bit longer for spacing.</div>
-              </div>
-            </div>
-          </div>
-          <div class="flex row-gt-sm">
-            <div class="flex bullet-wrap ">
-              <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
-                <div class="hexagon">
-                  <i class="mdi mdi-lightbulb-outline"></i>
-                </div>
-              </div>
-              <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-                <div class="label bold">Adjective 3</div>
-                <div>Adjective 3 Description. Needs to be a bit longer for spacing.</div>
-              </div>
-            </div>
-
-            <div class="flex bullet-wrap ">
-              <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
-                <div class="hexagon">
-                  <i class="mdi mdi-rocket"></i>
-                </div>
-              </div>
-              <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-                <div class="label bold">Adjective 4</div>
-                <div>Adjective 4 Description. Needs to be a bit longer for spacing.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      -->
-        <div class="skills-wrapper flex row-gt-sm">
-          <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
-            <img src="android-chrome-512x512.png" class="me">
-            <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-            <div class="label bold">hello. i'm avi <span class="labelred">patel</span></div>
-            <div>
-
-              <br>
-              i'm a medical student, creator, and human in Boston, MA. i study medicine at Tufts University with a particular interest in the intersection of technology and medicine. i am also a novice coder, seasoned ui/ux tester,
-              avid hiker, space fanboy, film enthusiast, and explorer by hobby.
-              <br>
-              <span> <a class="highlight" href="mailto:avi.patel@uconn.edu?Subject=Hello" target="_blank">Let's create something special.</a></span>
-              <span class="page-link highlight" dest="contact"></span>
-            </div>
-          </div>
-
-          <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+            <div class="header waypoint" data-animation="slide-in-left">about</div>
+            <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
             <!--
-            <div class="bar flex">
-              <div class="bar fill" style="width:75%">
-                <div class="tag bold flex">Indecisiveness</div>
-              </div>
-              <span>80%</span>
-            </div>
+            <div class="flex row label-wrap">
+              <div class="flex row-gt-sm">
+                <div class="flex bullet-wrap ">
+                  <div class="hex-wrap waypoint" data-animation="flip-in-x">
+                    <div class="hexagon">
+                      <i class="mdi mdi-speedometer"></i>
+                    </div>
+                  </div>
+                  <div class="waypoint" data-animation="fade-in">
+                    <div class="label bold">Adjective 1</div>
+                    <div>Adjective 1 Description. Needs to be a bit longer for spacing.</div>
+                  </div>
+                </div>
 
-            <div class="bar flex">
-              <div class="bar fill" style="width:45%">
-                <div class="tag bold flex">Indecisiveness</div>
+                <div class="flex bullet-wrap ">
+                  <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+                    <div class="hexagon">
+                      <i class="mdi mdi-cellphone-link"></i>
+                    </div>
+                  </div>
+                  <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+                    <div class="label bold">Adjective 2</div>
+                    <div>Adjective 2 Description. Needs to be a bit longer for spacing.</div>
+                  </div>
+                </div>
               </div>
-              <span>40%</span>
+              <div class="flex row-gt-sm">
+                <div class="flex bullet-wrap ">
+                  <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+                    <div class="hexagon">
+                      <i class="mdi mdi-lightbulb-outline"></i>
+                    </div>
+                  </div>
+                  <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+                    <div class="label bold">Adjective 3</div>
+                    <div>Adjective 3 Description. Needs to be a bit longer for spacing.</div>
+                  </div>
+                </div>
+
+                <div class="flex bullet-wrap ">
+                  <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+                    <div class="hexagon">
+                      <i class="mdi mdi-rocket"></i>
+                    </div>
+                  </div>
+                  <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+                    <div class="label bold">Adjective 4</div>
+                    <div>Adjective 4 Description. Needs to be a bit longer for spacing.</div>
+                  </div>
+                </div>
+              </div>
             </div>
           -->
-            <article id="intro" style="display: block;text-align: left;" class="active">
-              <h3 class="major">Current</h3>
-              <ul>
-                <li>Medical Student @ <a class="highlight" href="https://medicine.tufts.edu/" target="_blank">Tufts University School of Medicine</a> 🩺&zwj;👨&zwj;⚕</li>
-                <li>Researcher @ <a class="highlight" href="https://medicine.tufts.edu/faculty/lisa-gualtieri" target="_blank">Dr. Lisa Gualtieri's Digital Health Technologies Lab</a> 📚&zwj;🔎</li>
-                <li>Volunteer @ <a class="highlight" href="https://www.recyclehealth.com/" target="_blank">RecycleHealth</a> ♻️&zwj;📱</li>
-                <li>UI/UX Tester @ <a class="highlight" href="https://www.betabound.com/learn/about/" target="_blank">Centercode Betabound Platform</a>👨&zwj;💻</li>
-              </ul>
+            <div class="skills-wrapper flex row-gt-sm">
+                <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+                    <img class="me" src="android-chrome-512x512.png" alt="android chrome icon">
+                    <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+                    <div class="label bold">hello. i'm avi <span class="labelred">patel</span></div>
+                    <div>
 
-              <h3 class="major">Past</h3>
-              <ul>
-                <li>University Scholar Graduate @ <a class="highlight" href="https://www.uconn.edu/" target="_blank">University of Connecticut</a> 🎓&zwj;</li>
-                <li>Researcher @ <a class="highlight" href="http://nguyenresearchgroup.com/" target="_blank">UConn Health Institute for Regenerative Engineering</a> 🧬&zwj;🧪</li>
-                <li>EMT @ <a class="highlight" href="https://www.royalambulance.com/" target="_blank">Royal Ambulance</a> 🚑</li>
-                <li>Advanced Support Technician @ <a class="highlight" href="https://its.uconn.edu/" target="_blank">UConn Information Technologies Services</a>👨&zwj;💻</li>
-                <li>Clinical Researcher @ <a class="highlight" href="https://www.connecticutchildrens.org/search-specialties/emergency-medicine/">Connecticut Children's Medical Center Emergency Department</a> 🏥&zwj;😷</li>
-              </ul>
+                        <br>
+                        i'm a medical student, creator, and explorer in Boston, MA. i study medicine at Tufts University
+                        with a particular interest in the intersection of technology and medicine. i am also a novice
+                        coder, seasoned ui/ux tester,
+                        avid hiker, space fanboy, film enthusiast, and explorer by hobby.
+                        <br>
+                        <span> <a class="highlight" href="mailto:avi.patel@uconn.edu?Subject=Hello" target="_blank">Let's create something special.</a></span>
+                        <span class="page-link highlight" dest="contact"></span>
+                    </div>
+                </div>
 
-              <h3 class="major">Research & Publications</h3>
-              <ul>
-                <li>Transdermal Microneedles for the Programmable Burst Release of Multiple Vaccine Payloads <a class="highlight" href="https://www.nature.com/articles/s41551-020-00650-4" target="_blank">[publication]</a></li>
-                <li>Development of a Sonically Powered Biodegradable Nanogenerator for Bone Regeneration <a class="highlight" href="https://opencommons.uconn.edu/srhonors_theses/733/" target="_blank">[publication]</a></li>
-                <li>Biodegradable Piezoelectric Force Sensor <a class="highlight" href="https://www.pnas.org/content/115/5/909" target="_blank">[publication]</a></li>
-                <li>Physical Stimulations for Bone and Cartilage Regeneration <a class="highlight" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6366645/" target="_blank">[publication]</a></li>
-              </ul>
-              <h3 class="major">Projects</h3>
-              <ul>
-                <li>IntoMe - a texting analysis program that parses conversations and graphs changes in texting patterns and aggregate relationship measures <a class="highlight"
-                    href="https://drive.google.com/drive/u/1/folders/10qODfakuVQcy6sJCvcaRSxosFNv6_Yvw" target="_blank">[demo]</a></li>
-                <li>GuessWho - a contact photo synchronization program that automatically links social media profile photos with phone contacts <a class="highlight" href="https://drive.google.com/drive/u/1/folders/10qODfakuVQcy6sJCvcaRSxosFNv6_Yvw"
-                    target="_blank">[demo]</a></li>
-                <li>EpiPing - a smart EpiPen <a class="highlight" href="https://drive.google.com/drive/u/1/folders/10qODfakuVQcy6sJCvcaRSxosFNv6_Yvw" target="_blank">[demo]</a></li>
-                <li>GodSend - a smart-city application that "crowdsources heroes” by connecting those who need emergency help with nearby, volunteer emergency responders who can be of assistance </<a class="highlight"
-                    href="https://drive.google.com/drive/u/1/folders/10qODfakuVQcy6sJCvcaRSxosFNv6_Yvw" target="_blank">[demo]</a></li>
-                <li>Plate <a class="highlight" href="https://github.com/avipatel97" target="_blank">[demo - not yet available]</a></li>
-                <li><a class="highlight" href="https://github.com/avipatel97" target="_basic">A few more...</a></li>
-              </ul>
-              <h3 class="major">Interests</h3>
-              <ul>
-                <li>Daydreaming / losing track of time</li>
-                <li>Tech</li>
-                <li>UX/UI</li>
-                <li>Data organization and visualization</li>
-                <li>Outdoor recreation</li>
-                <li>Cinematography</li>
-                <li>Catan</li>
-                <li>Podcasts (faves: <a class="highlight" href="https://www.vox.com/recode" target="_blank">recode By Vox</a>, <a class="highlight" href="https://freakonomics.com/" target="_blank">Freakonomics</a>, <a class="highlight"
-                    href="https://www.npr.org/podcasts/510313/how-i-built-this" target="_blank">How I Built This</a>, <a class="highlight" href="https://www.npr.org/sections/money/" target="_blank">NPR Planet Money</a>)</li>
-              </ul>
-            </article>
-          </div>
+                <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+                    <!--
+                    <div class="bar flex">
+                      <div class="bar fill" style="width:75%">
+                        <div class="tag bold flex">Indecisiveness</div>
+                      </div>
+                      <span>80%</span>
+                    </div>
+
+                    <div class="bar flex">
+                      <div class="bar fill" style="width:45%">
+                        <div class="tag bold flex">Indecisiveness</div>
+                      </div>
+                      <span>40%</span>
+                    </div>
+                  -->
+                    <article class="active" id="intro" style="display: block;text-align: left;">
+                        <h3 class="major">Current</h3>
+                        <ul>
+                            <li>Medical Student @ <a class="highlight" href="https://medicine.tufts.edu/"
+                                                     target="_blank">Tufts University School of Medicine</a> 🩺&zwj;👨&zwj;⚕
+                            </li>
+                            <li>Graduate Researcher @ <a class="highlight"
+                                                         href="https://medicine.tufts.edu/faculty/lisa-gualtieri"
+                                                         target="_blank">The Tufts Digital Health Research Group</a>
+                                📚&zwj;🔎
+                            </li>
+                            <li>EMT @ <a class="highlight" href="https://emsa.ca.gov/cal-mat/" target="_blank">California
+                                State Disaster Medical Services Division</a>
+                                🚑
+                            </li>
+                            <li>Volunteer @ <a class="highlight" href="https://www.recyclehealth.com/" target="_blank">RecycleHealth</a>
+                                ♻️&zwj;📱
+                            </li>
+                            <li>UI/UX Tester @ <a class="highlight" href="https://www.betabound.com/learn/about/"
+                                                  target="_blank">Betabound by Centercode</a>👨&zwj;💻
+                            </li>
+                        </ul>
+
+                        <h3 class="major">Past</h3>
+                        <ul>
+                            <li>University Scholar Graduate @ <a class="highlight" href="https://www.uconn.edu/"
+                                                                 target="_blank">University of Connecticut</a> 🎓&zwj;
+                            </li>
+                            <li>Researcher @ <a class="highlight" href="http://nguyenresearchgroup.com/"
+                                                target="_blank">UConn Health Institute for Regenerative Engineering</a>
+                                🧬&zwj;🧪
+                            </li>
+                            <li>Clinical Researcher @ <a class="highlight"
+                                                         href="https://www.connecticutchildrens.org/search-specialties/emergency-medicine/">Connecticut
+                                Children's Medical Center Emergency Department</a> 🏥&zwj;😷
+                            </li>
+                            <li>EMT @ <a class="highlight" href="https://www.royalambulance.com/" target="_blank">Royal
+                                Ambulance</a> 🚑
+                            </li>
+                            <li>Advanced Support Technician @ <a class="highlight" href="https://its.uconn.edu/"
+                                                                 target="_blank">UConn Information Technologies
+                                Services</a>👨&zwj;💻
+                            </li>
+                        </ul>
+
+                        <h3 class="major">Research & Publications</h3>
+                        <ul>
+                            <li>Transdermal Microneedles for the Programmable Burst Release of Multiple Vaccine Payloads
+                                <a class="highlight" href="https://www.nature.com/articles/s41551-020-00650-4"
+                                   target="_blank"> [publication]</a></li>
+                            <li>Development of a Sonically Powered Biodegradable Nanogenerator for Bone Regeneration<a
+                                    class="highlight" href="https://opencommons.uconn.edu/srhonors_theses/733/"
+                                    target="_blank"> [publication]</a></li>
+                            <li>Biodegradable Piezoelectric Force Sensor<a class="highlight"
+                                                                           href="https://doi.org/10.1073/pnas.1710874115"
+                                                                           target="_blank"> [publication]</a></li>
+                            <li>Physical Stimulations for Bone and Cartilage Regeneration<a class="highlight"
+                                                                                            href="https://doi.org/10.1007/s40883-018-0064-0"
+                                                                                            target="_blank">
+                                [publication]</a>
+                            </li>
+                            <li>Design Thinking to Create a Remote Patient Monitoring Platform for Older Adults' Homes<a
+                                    class="highlight"
+                                    href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8216651/"
+                                    target="_blank"> [publication]</a>
+                            </li>
+                        </ul>
+                        <h3 class="major">Projects</h3>
+                        <ul>
+                            <li>IntoMe - a texting analysis program that parses conversations and graphs changes in
+                                texting patterns and aggregate relationship measures <a class="highlight"
+                                                                                        href="https://drive.google.com/file/d/1TOcvY1Rq6aTZpuONNCGuQuN4f5RGHitA/view"
+                                                                                        target="_blank">[demo]</a></li>
+                            <li>Browser I am Speed - an extension that leverages RAM to speed up the browsing experience
+                                by dynamically background-loading predicted page links while you spend time on the page
+                                <a class="highlight"
+                                   href="https://drive.google.com/file/d/1RmmlNLhdEttDEsTQtOZI163303iUzFqf/view"
+                                   target="_blank">[demo]</a></li>
+                            <li>GuessWho - a contact photo synchronization program that automatically links social media
+                                profile photos with phone contacts <a class="highlight"
+                                                                      href="mailto:avi.patel@uconn.edu?Subject=Request Demo"
+                                                                      target="_blank">[private - request demo]</a></li>
+                            <li>EpiPing - a smart EpiPen <a class="highlight"
+                                                            href="https://drive.google.com/file/d/1SCFJJD6cLzVgw3Aw5jcpduYDeevwXZCX/view"
+                                                            target="_blank">[demo]</a></li>
+                            <li>GodSend - a smart-city application that "crowdsources heroes” by connecting those who
+                                need emergency help with nearby, volunteer emergency responders who can be of assistance
+                                <a class="highlight"
+                                   href="https://drive.google.com/file/d/1MLepchA2ekbDuU675NkyNVvBAnic8n7I/view"
+                                   target="_blank">[demo]</a></li>
+                            <li>Plate <a class="highlight"
+                                         href="mailto:avi.patel@uconn.edu?Subject=Request Demo"
+                                         target="_blank">
+                                [private - request demo]</a></li>
+                            <li><a class="highlight" href="https://github.com/avipatel97" target="_basic">A few
+                                more...</a></li>
+                        </ul>
+                        <h3 class="major">Interests</h3>
+                        <ul>
+                            <li>Podcasts (faves: <a class="highlight" href="https://www.vox.com/recode" target="_blank">recode
+                                By Vox</a>, <a class="highlight" href="https://freakonomics.com/" target="_blank">Freakonomics</a>,
+                                <a class="highlight"
+                                   href="https://www.npr.org/podcasts/510313/how-i-built-this" target="_blank">How I
+                                    Built This</a>, <a class="highlight" href="https://www.npr.org/sections/money/"
+                                                       target="_blank">NPR Planet Money</a>)
+                            </li>
+                            <li>Daydreaming & losing track of time</li>
+                            <li>Data organization and visualization</li>
+                            <li>Outdoor recreation</li>
+                            <li>Everything tech</li>
+                            <li>Cinematography</li>
+                            <li>UX/UI</li>
+                            <li>Catan</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- stories -->
@@ -255,93 +321,93 @@
     padding-top: 60px;
     display: none;
 ">
-      <div class="header waypoint" data-animation="slide-in-right">stories</div>
-      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
-      <div class="filter-wrap waypoint" data-animation="fade-in">
-        <div class="flex row">
-          <div class="filter" data-filter="all">All</div>
-          <div class="filter" data-filter=".node">Story 1</div>
-          <div class="filter" data-filter=".rails">Story 2</div>
-          <div class="filter" data-filter=".js">Story 3</div>
-        </div>
-        <div class="float-bar">
-          <div class="flex row">
-            <div class="filter" data-filter="all">All</div>
-            <div class="filter" data-filter=".node">Story 1</div>
-            <div class="filter" data-filter=".rails">Story 2</div>
-            <div class="filter" data-filter=".js">Story 3</div>
-          </div>
-        </div>
-      </div>
-
-      <div id="gallery" class="container flex row wrap waypoint">
-        <div class="mix js" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Story 1</div>
-              <span class="highlight">Story 1 Description</span>
+        <div class="header waypoint" data-animation="slide-in-right">stories</div>
+        <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+        <div class="filter-wrap waypoint" data-animation="fade-in">
+            <div class="flex row">
+                <div class="filter" data-filter="all">All</div>
+                <div class="filter" data-filter=".node">Story 1</div>
+                <div class="filter" data-filter=".rails">Story 2</div>
+                <div class="filter" data-filter=".js">Story 3</div>
             </div>
-            <div class="button" id="roambi">Learn more</div>
-          </div>
-        </div>
-
-        <div class="mix rails" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Story 2</div>
-              <span class="highlight">Story 2 Description</span>
+            <div class="float-bar">
+                <div class="flex row">
+                    <div class="filter" data-filter="all">All</div>
+                    <div class="filter" data-filter=".node">Story 1</div>
+                    <div class="filter" data-filter=".rails">Story 2</div>
+                    <div class="filter" data-filter=".js">Story 3</div>
+                </div>
             </div>
-            <div class="button" id="walker">Learn more</div>
-          </div>
         </div>
 
-        <div class="mix node" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Story 3</div>
-              <span class="highlight">Story 3 Description</span>
+        <div class="container flex row wrap waypoint" id="gallery">
+            <div class="mix js" data-my-order="1">
+                <div>
+                    <div class="card"></div>
+                    <div class="text">
+                        <div class="bold">Story 1</div>
+                        <span class="highlight">Story 1 Description</span>
+                    </div>
+                    <div class="button" id="roambi">Learn more</div>
+                </div>
             </div>
-            <div class="button" id="mystand">Learn more</div>
-          </div>
-        </div>
 
-        <div class="mix js" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Story 4</div>
-              <span class="highlight">Story 4 Description</span>
+            <div class="mix rails" data-my-order="1">
+                <div>
+                    <div class="card"></div>
+                    <div class="text">
+                        <div class="bold">Story 2</div>
+                        <span class="highlight">Story 2 Description</span>
+                    </div>
+                    <div class="button" id="walker">Learn more</div>
+                </div>
             </div>
-            <div class="button" id="never">Learn more</div>
-          </div>
-        </div>
 
-        <div class="mix rails" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Story 5</div>
-              <span class="highlight">Story 5 Description</span>
+            <div class="mix node" data-my-order="1">
+                <div>
+                    <div class="card"></div>
+                    <div class="text">
+                        <div class="bold">Story 3</div>
+                        <span class="highlight">Story 3 Description</span>
+                    </div>
+                    <div class="button" id="mystand">Learn more</div>
+                </div>
             </div>
-            <div class="button" id="powur">Learn more</div>
-          </div>
-        </div>
 
-
-        <div class="mix node" data-my-order="1">
-          <div>
-            <div class="card"></div>
-            <div class="text">
-              <div class="bold">Story 6</div>
-              <span class="highlight">Story 6 Description</span>
+            <div class="mix js" data-my-order="1">
+                <div>
+                    <div class="card"></div>
+                    <div class="text">
+                        <div class="bold">Story 4</div>
+                        <span class="highlight">Story 4 Description</span>
+                    </div>
+                    <div class="button" id="never">Learn more</div>
+                </div>
             </div>
-            <div class="button" id="themall">Learn more</div>
-          </div>
+
+            <div class="mix rails" data-my-order="1">
+                <div>
+                    <div class="card"></div>
+                    <div class="text">
+                        <div class="bold">Story 5</div>
+                        <span class="highlight">Story 5 Description</span>
+                    </div>
+                    <div class="button" id="powur">Learn more</div>
+                </div>
+            </div>
+
+
+            <div class="mix node" data-my-order="1">
+                <div>
+                    <div class="card"></div>
+                    <div class="text">
+                        <div class="bold">Story 6</div>
+                        <span class="highlight">Story 6 Description</span>
+                    </div>
+                    <div class="button" id="themall">Learn more</div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- thoughts -->
@@ -350,70 +416,70 @@
     padding-top: 60px;
     display: none;
 ">
-      <div class="container flex">
+        <div class="container flex">
 
-        <div class="header waypoint" data-animation="slide-in-left">thoughts</div>
-        <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+            <div class="header waypoint" data-animation="slide-in-left">thoughts</div>
+            <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
 
-        <div class="flex row wrap">
-          <div class="flex row-gt-sm">
-            <a href="http://cnet.com" target="_blank">
-              <div class="thoughts-wrap waypoint" data-animation="fade-in">
-                <div class="fade-wrap">
-                  <div class="thumb" id="thumb-1"></div>
-                  <div class="label bold">thoughts Post 1</div>
-                  <div class="date">DECEMBER 18, 1997</div>
-                  <div class="bar"></div>
-                  <div class="text">
-                    This just takes you to CNET
-                  </div>
+            <div class="flex row wrap">
+                <div class="flex row-gt-sm">
+                    <a href="http://cnet.com" target="_blank">
+                        <div class="thoughts-wrap waypoint" data-animation="fade-in">
+                            <div class="fade-wrap">
+                                <div class="thumb" id="thumb-1"></div>
+                                <div class="label bold">thoughts Post 1</div>
+                                <div class="date">DECEMBER 18, 1997</div>
+                                <div class="bar"></div>
+                                <div class="text">
+                                    This just takes you to CNET
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="http://yahoo.com" target="_blank">
+                        <div class="thoughts-wrap waypoint" data-animation="fade-in" data-delay=".2s">
+                            <div class="fade-wrap">
+                                <div class="thumb" id="thumb-2"></div>
+                                <div class="label bold">thoughts Post 2</div>
+                                <div class="date">DECEMBER 18, 1997</div>
+                                <div class="bar"></div>
+                                <div class="text">
+                                    This just takes you to Yahoo
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-              </div>
-            </a>
-            <a href="http://yahoo.com" target="_blank">
-              <div class="thoughts-wrap waypoint" data-animation="fade-in" data-delay=".2s">
-                <div class="fade-wrap">
-                  <div class="thumb" id="thumb-2"></div>
-                  <div class="label bold">thoughts Post 2</div>
-                  <div class="date">DECEMBER 18, 1997</div>
-                  <div class="bar"></div>
-                  <div class="text">
-                    This just takes you to Yahoo
-                  </div>
+                <div class="flex row-gt-sm">
+                    <a href="http://youtube.com" target="_blank">
+                        <div class="thoughts-wrap waypoint" data-animation="fade-in" data-delay=".4s">
+                            <div class="fade-wrap">
+                                <div class="thumb" id="thumb-3"></div>
+                                <div class="label bold">thoughts Post 3</div>
+                                <div class="date">DECEMBER 18, 1997</div>
+                                <div class="bar"></div>
+                                <div class="text">
+                                    This just takes you to YouTube
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="http://waitbutwhy.com" target="_blank">
+                        <div class="thoughts-wrap waypoint" data-animation="fade-in" data-delay=".6s">
+                            <div class="fade-wrap">
+                                <div class="thumb" id="thumb-4"></div>
+                                <div class="label bold">thoughts Post 4</div>
+                                <div class="date">DECEMBER 18, 1997</div>
+                                <div class="bar"></div>
+                                <div class="text">
+                                    This just takes you to WaitButWhy
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-              </div>
-            </a>
-          </div>
-          <div class="flex row-gt-sm">
-            <a href="http://youtube.com" target="_blank">
-              <div class="thoughts-wrap waypoint" data-animation="fade-in" data-delay=".4s">
-                <div class="fade-wrap">
-                  <div class="thumb" id="thumb-3"></div>
-                  <div class="label bold">thoughts Post 3</div>
-                  <div class="date">DECEMBER 18, 1997</div>
-                  <div class="bar"></div>
-                  <div class="text">
-                    This just takes you to YouTube
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="http://waitbutwhy.com" target="_blank">
-              <div class="thoughts-wrap waypoint" data-animation="fade-in" data-delay=".6s">
-                <div class="fade-wrap">
-                  <div class="thumb" id="thumb-4"></div>
-                  <div class="label bold">thoughts Post 4</div>
-                  <div class="date">DECEMBER 18, 1997</div>
-                  <div class="bar"></div>
-                  <div class="text">
-                    This just takes you to WaitButWhy
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- contact -->
@@ -422,95 +488,96 @@
     padding-top: 10px;
 ">
 
-      <div class="container flex">
-        <!--
-        <div class="header waypoint" data-animation="slide-in-left">contact</div>
+        <div class="container flex">
+            <!--
+            <div class="header waypoint" data-animation="slide-in-left">contact</div>
 
-        <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
-        <form action="mailto:avi.patel@uconn.edu" class="waypoint" data-animation="pop-in" data-delay=".5s" method="post" enctype="text/plain">
-          <p><input placeholder="Name" type="text" name="name" required=""></p>
-          <p><input placeholder="Email" type="text" name="email" required=""></p>
-          <textarea placeholder="Your Message" type="text" name="message" spellcheck="true"></textarea>
-          <input class="button" type="submit" id="sumbit" name="submit" value="Send" />
-        </form>
-        -->
-      </div>
+            <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+            <form action="mailto:avi.patel@uconn.edu" class="waypoint" data-animation="pop-in" data-delay=".5s" method="post" enctype="text/plain">
+              <p><input placeholder="Name" type="text" name="name" required=""></p>
+              <p><input placeholder="Email" type="text" name="email" required=""></p>
+              <textarea placeholder="Your Message" type="text" name="message" spellcheck="true"></textarea>
+              <input class="button" type="submit" id="sumbit" name="submit" value="Send" />
+            </form>
+            -->
+        </div>
 
     </section>
 
     <footer>
-      <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
 
-      <div class="icon-wrap flex row">
-        <a href="https://www.linkedin.com/in/avipatel97/">
-          <div class="flex icon" id="icon-1">
-            <i class="mdi mdi-linkedin"></i>
-          </div>
-        </a>
-        <a href="https://www.facebook.com/avipatel18">
-          <div class="flex icon" id="icon-2">
-            <i class="mdi mdi-facebook"></i>
-          </div>
-        </a>
-        <a href="https://www.instagram.com/avipatel.97/">
-          <div class="flex icon" id="icon-3">
-            <i class="mdi mdi-instagram"></i>
-          </div>
-        </a>
-        <a href="https://github.com/avipatel97">
-          <div class="flex icon" id="icon-4">
-            <i class="mdi mdi-github-circle"></i>
-          </div>
-        </a>
-        <a href="mailto:avi.patel@uconn.edu?Subject=Hello">
-          <div class="flex icon" id="icon-5">
-            <i class="mdi mdi-email-outline"></i>
-          </div>
-        </a>
-      </div>
-      <div class="info-box">
-        <div class="footnote"> <a href="file:///C:/My%20Life/Other/Github%20Website/avipatel97.github.io/index.html">avi patel. </a><span class="highlight">&copy;2020</span></div>
+        <div class="icon-wrap flex row">
+            <a href="https://www.linkedin.com/in/avipatel97/">
+                <div class="flex icon" id="icon-1">
+                    <i class="mdi mdi-linkedin"></i>
+                </div>
+            </a>
+            <a href="https://www.facebook.com/avipatel18">
+                <div class="flex icon" id="icon-2">
+                    <i class="mdi mdi-facebook"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/avipatel.97/">
+                <div class="flex icon" id="icon-3">
+                    <i class="mdi mdi-instagram"></i>
+                </div>
+            </a>
+            <a href="https://github.com/avipatel97">
+                <div class="flex icon" id="icon-4">
+                    <i class="mdi mdi-github-circle"></i>
+                </div>
+            </a>
+            <a href="mailto:avi.patel@uconn.edu?Subject=Hello">
+                <div class="flex icon" id="icon-5">
+                    <i class="mdi mdi-email-outline"></i>
+                </div>
+            </a>
+        </div>
+        <div class="info-box">
+            <div class="footnote"><a href="file:///C:/My%20Life/Other/Github%20Website/avipatel97.github.io/index.html">avi
+                patel. </a><span class="highlight">&copy;2022</span></div>
 
-      </div>
+        </div>
     </footer>
 
-  </div>
+</div>
 
-  <div id="preload">
-    <img src="android-chrome-512x512.png">
-    <img src="img/filler.jpg">
-    <img src="img\thumb-1.jpg">
-    <img src="img\thumb-2.jpg">
-    <img src="img\thumb-3.jpg">
-    <img src="img\thumb-4.jpg">
-    <img src="img\thumb-5.jpg">
-    <img src="img\thumb-6.jpg">
-    <img src="img\thoughts-1.jpg">
-    <img src="img\thoughts-2.jpg">
-    <img src="img\thoughts-3.jpg">
-    <img src="img\thoughts-4.jpg">
-    <img src="img\slides\mystand-0.jpg">
-    <img src="img\slides\mystand-1.jpg">
-    <img src="img\slides\mystand-2.jpg">
-    <img src="img\slides\never-0.jpg">
-    <img src="img\slides\never-1.jpg">
-    <img src="img\slides\never-2.jpg">
-    <img src="img\slides\powur-0.jpg">
-    <img src="img\slides\powur-1.jpg">
-    <img src="img\slides\powur-2.jpg">
-    <img src="img\slides\roambi-0.jpg">
-    <img src="img\slides\roambi-1.jpg">
-    <img src="img\slides\roambi-2.jpg">
-    <img src="img\slides\themall-0.jpg">
-    <img src="img\slides\themall-1.jpg">
-    <img src="img\slides\themall-2.jpg">
-    <img src="img\slides\walker-0.jpg">
-    <img src="img\slides\walker-1.jpg">
-    <img src="img\slides\walker-2.jpg">
-  </div>
+<div id="preload">
+    <img alt="android chrome logo" src="android-chrome-512x512.png">
+    <img alt="filler image" src="img/filler.jpg">
+    <img alt="filler image" src="img/thumb-1.jpg">
+    <img alt="filler image" src="img/thumb-2.jpg">
+    <img alt="filler image" src="img/thumb-3.jpg">
+    <img alt="filler image" src="img/thumb-4.jpg">
+    <img alt="filler image" src="img/thumb-5.jpg">
+    <img alt="filler image" src="img/thumb-6.jpg">
+    <img alt="filler image" src="img/thoughts-1.jpg">
+    <img alt="filler image" src="img/thoughts-2.jpg">
+    <img alt="filler image" src="img/thoughts-3.jpg">
+    <img alt="filler image" src="img/thoughts-4.jpg">
+    <img alt="filler image" src="img/slides/mystand-0.jpg">
+    <img alt="filler image" src="img/slides/mystand-1.jpg">
+    <img alt="filler image" src="img/slides/mystand-2.jpg">
+    <img alt="filler image" src="img/slides/never-0.jpg">
+    <img alt="filler image" src="img/slides/never-1.jpg">
+    <img alt="filler image" src="img/slides/never-2.jpg">
+    <img alt="filler image" src="img/slides/powur-0.jpg">
+    <img alt="filler image" src="img/slides/powur-1.jpg">
+    <img alt="filler image" src="img/slides/powur-2.jpg">
+    <img alt="filler image" src="img/slides/roambi-0.jpg">
+    <img alt="filler image" src="img/slides/roambi-1.jpg">
+    <img alt="filler image" src="img/slides/roambi-2.jpg">
+    <img alt="filler image" src="img/slides/themall-0.jpg">
+    <img alt="filler image" src="img/slides/themall-1.jpg">
+    <img alt="filler image" src="img/slides/themall-2.jpg">
+    <img alt="filler image" src="img/slides/walker-0.jpg">
+    <img alt="filler image" src="img/slides/walker-1.jpg">
+    <img alt="filler image" src="img/slides/walker-2.jpg">
+</div>
 
 </body>
 
 </html>
 
-<script src="scripts\canvas.js"></script>
+<script src="scripts/canvas.js"></script>

@@ -60,16 +60,19 @@ V0.0 - ##/##/####
 - Fix emojis
 - Upgrade to jqurey 3.6.0
 
-4/??/2021
+9/25/2021
 - Updated bio (removed EM)
 - Fixed publication capitalization
+- Added new Tufts publication
+- Added link to all public demos
+- Updated copyright to 2022
+- Switched to IntelliJ IDE = IntelliJ formatiing
 
 
 Future
-- Create the last Code Project Demo (I am Speed) and Link them all
 - Make same background for the whole thing (look at P)
 - Make left face image static (so it doesn’t move as you scroll)
--Put website mentions below respective sections
+- Put website mentions below respective sections
 
 UI:
 N/A
@@ -84,7 +87,7 @@ Appendix:
 Things to consider:
 -Do I want to have a blog section. What wound the posts be?
 -- Use my favorite writings as sections in website blog
--Do I just want to make an IG so its a photo blog. No, because I then would be concerned over likes/comments instead of the content itself.
+-Do I just want to make an IG so it's a photo blog? I currently don't have enough photos.
 -Do I want to write, long extensive things? No. I would rather write small blurbs about daily occurrence.
 -Places I’ve Been - map scratch off
 -Good books (goodreads widget) / movies (imdb widget) / articles (?) / podcasts
