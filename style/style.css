@@ -823,30 +823,6 @@ section:nth-of-type(3) #gallery .mix .button:hover {
     color: #fff;
 }
 
-section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-    background: url("../img/thumb-1.jpg") center center/cover;
-}
-
-section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-    background: url("../img/thumb-2.jpg") center center/cover;
-}
-
-section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-    background: url("../img/thumb-3.jpg") center center/cover;
-}
-
-section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-    background: url("../img/thumb-4.jpg") center center/cover;
-}
-
-section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-    background: url("../img/thumb-5.jpg") center center/cover;
-}
-
-section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-    background: url("../img/thumb-6.jpg") center center/cover;
-}
-
 section:nth-of-type(3) #gallery .mix .card {
     height: 240px;
     max-width: 100%;
@@ -895,22 +871,6 @@ section:nth-of-type(4) .thoughts-wrap {
     padding: 0 2px;
     width: 100%;
     cursor: pointer;
-}
-
-section:nth-of-type(4) .thoughts-wrap #thumb-1 {
-    background: url("../img/thoughts-1.jpg") center center/cover;
-}
-
-section:nth-of-type(4) .thoughts-wrap #thumb-2 {
-    background: url("../img/thoughts-2.jpg") center center/cover;
-}
-
-section:nth-of-type(4) .thoughts-wrap #thumb-3 {
-    background: url("../img/thoughts-3.jpg") center center/cover;
-}
-
-section:nth-of-type(4) .thoughts-wrap #thumb-4 {
-    background: url("../img/thoughts-4.jpg") center center/cover;
 }
 
 section:nth-of-type(4) .thoughts-wrap .fade-wrap {
@@ -1470,5 +1430,3 @@ footer .footnote .highlight {
         margin: 0 0 50px 20px;
     }
 }
-
-/*# sourceMappingURL=style.css.map */

@@ -68,6 +68,9 @@ V0.0 - ##/##/####
 - Updated copyright to 2022
 - Switched to IntelliJ IDE = IntelliJ formatiing
 
+2/4/2022
+- Cleaned up unused files
+
 
 Future
 - Make same background for the whole thing (look at P)
