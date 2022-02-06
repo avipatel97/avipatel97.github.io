@@ -74,6 +74,7 @@ V0.0 - ##/##/####
 2/6/2022
 - Make same background for the whole thing
 - Make left face image static (so it doesn’t move as you scroll = sticky)
+- Updated formatting, description
 
 Future
 - Put website mentions below respective sections
