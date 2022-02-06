@@ -150,7 +150,7 @@ body {
     font-family: 'Raleway', serif;
     text-align: center;
     margin: 0;
-    font-size: 8pt;
+    font-size: 12pt;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -271,7 +271,7 @@ body {
 }
 
 .label {
-    font-size: 14pt;
+    font-size: 18pt;
     font-weight: 500;
 }
 
@@ -321,7 +321,7 @@ nav .link-wrap {
 }
 
 nav .link-wrap.visible {
-    height: 220px;
+    height: auto;
 }
 
 nav .link-wrap div {
@@ -526,8 +526,7 @@ nav .active {
 
 section {
     padding: 70px 0 70px 0;
-    color: #616161;
-    line-height: 11pt;
+    color: rgba(177, 177, 177, 0.71);
     position: relative;
 }
 
@@ -551,7 +550,7 @@ section:nth-of-type(1) .highlight {
 
 section:nth-of-type(1) .text {
     margin: 0 0 20px 0;
-    font-size: 16pt;
+    font-size: 30pt;
     line-height: 20pt;
     z-index: 1;
     pointer-events: none;
@@ -1042,7 +1041,7 @@ footer .icon-wrap .icon {
     height: 55px;
     position: relative;
     text-align: center;
-    margin: 0 15px;
+    margin: 0 11px;
     background: #262F38;
     font-size: 18pt;
 }
@@ -1383,6 +1382,8 @@ footer .footnote .highlight {
         max-width: 50%;
         max-height: 100%;
         box-sizing: border-box;
+        position: sticky;
+        top: 20%;
     }
 
     section:nth-of-type(2) .bars-wrap {

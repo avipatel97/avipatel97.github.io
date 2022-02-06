@@ -61,7 +61,7 @@ V0.0 - ##/##/####
 - Upgrade to jqurey 3.6.0
 
 9/25/2021
-- Updated bio (removed EM)
+- Updated bio
 - Fixed publication capitalization
 - Added new Tufts publication
 - Added link to all public demos
@@ -71,10 +71,11 @@ V0.0 - ##/##/####
 2/4/2022
 - Cleaned up unused files
 
+2/6/2022
+- Make same background for the whole thing
+- Make left face image static (so it doesn’t move as you scroll = sticky)
 
 Future
-- Make same background for the whole thing (look at P)
-- Make left face image static (so it doesn’t move as you scroll)
 - Put website mentions below respective sections
 
 UI:
