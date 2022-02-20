@@ -76,8 +76,13 @@ V0.0 - ##/##/####
 - Make left face image static (so it doesn’t move as you scroll = sticky)
 - Updated formatting, description
 
+2/19/2022
+- Updated demo links
+
+
 Future
 - Put website mentions below respective sections
+- Website bio - “technology enthusiast. engineering the future for coming generations”?
 
 UI:
 N/A
