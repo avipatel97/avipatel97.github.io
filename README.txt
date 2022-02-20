@@ -78,7 +78,7 @@ V0.0 - ##/##/####
 
 2/19/2022
 - Updated demo links
-
+- Fixed homepage animation
 
 Future
 - Put website mentions below respective sections
