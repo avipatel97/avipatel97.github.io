@@ -80,6 +80,9 @@ V0.0 - ##/##/####
 - Updated demo links
 - Fixed homepage animation
 
+6/6/2022
+- Updated analytics to G4
+
 Future
 - Put website mentions below respective sections
 - Website bio - “technology enthusiast. engineering the future for coming generations”?
