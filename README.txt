@@ -1,7 +1,5 @@
 README
 
-**Temp Note**
-
 Program / App Name:
 avipatel97.github.io
 
@@ -82,6 +80,12 @@ V0.0 - ##/##/####
 
 6/6/2022
 - Updated analytics to G4
+
+5/10/2023
+- Updated year
+- Updated Tufts graduation
+- Added start of residency
+- Updated Google Analytics
 
 Future
 - Put website mentions below respective sections
