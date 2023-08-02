@@ -87,6 +87,13 @@ V0.0 - ##/##/####
 - Added start of residency
 - Updated Google Analytics
 
+8/1/2023
+- Updated year range
+- Moved Tufts research to past
+- Cleaned up Interests
+- Added IMDB
+- Changed some dates
+
 Future
 - Put website mentions below respective sections
 - Website bio - “technology enthusiast. engineering the future for coming generations”?
@@ -102,7 +109,6 @@ Appendix:
 <script src="https://kit.fontawesome.com/3cc8c7d41e.js" crossorigin="anonymous"></script>
 
 Things to consider:
--Do I want to have a blog section. What wound the posts be?
 -- Use my favorite writings as sections in website blog
 -Do I just want to make an IG so it's a photo blog? I currently don't have enough photos.
 -Do I want to write, long extensive things? No. I would rather write small blurbs about daily occurrence.
