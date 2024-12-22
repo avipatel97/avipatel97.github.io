@@ -18,7 +18,6 @@ The wiki of my life
 
 Changelog:
 V0.0 - ##/##/####
--Format not applicable
 
 4/11/2020
 -Added revision history
@@ -94,6 +93,15 @@ V0.0 - ##/##/####
 - Added IMDB
 - Changed some dates
 
+12/22/2024
+- Updated year range
+- Fixed IMDB link
+- Updated contact email
+- Added Plate public demo link
+- Changed bio
+- Added Cabrillo NPS
+- Fixed Links
+
 Future
 - Put website mentions below respective sections
 - Website bio - “technology enthusiast. engineering the future for coming generations”?
@@ -110,7 +118,6 @@ Appendix:
 
 Things to consider:
 -- Use my favorite writings as sections in website blog
--Do I just want to make an IG so it's a photo blog? I currently don't have enough photos.
 -Do I want to write, long extensive things? No. I would rather write small blurbs about daily occurrence.
 -Places I’ve Been - map scratch off
 -Good books (goodreads widget) / movies (imdb widget) / articles (?) / podcasts
