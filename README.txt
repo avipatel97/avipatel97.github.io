@@ -3,7 +3,7 @@ README
 Program / App Name:
 avipatel97.github.io
 
-Collaborators / People who know about project:
+Collaborators / People who know about the project:
 Public (on social media)
 
 One-Liner(s) / Tag-Line(s):
@@ -102,9 +102,18 @@ V0.0 - ##/##/####
 - Added Cabrillo NPS
 - Fixed Links
 
+5/17/2025
+- Updated year range
+- Added new publication
+- Added Mercy Air
+- Fixed and changed some emojis ("&zwj;" is only needed to merge emojis)
+- Fixed use of dashes
+- Fixed IMDB link
+- Fixed contact email
+
 Future
 - Put website mentions below respective sections
-- Website bio - “technology enthusiast. engineering the future for coming generations”?
+- Website bio - “technology enthusiast. engineering the future for coming generations”
 
 UI:
 N/A
